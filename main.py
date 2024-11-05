@@ -25,7 +25,7 @@ while True:
     if option == '1':
        cat_attributes.update({"energy":cat_attributes["energy"]-energysnatcher})
        cat_attributes.update({"weight":cat_attributes["weight"]-weightsnatcher})
-       print(cat_attributes["energy"])
+       
     elif option =="2":
         cat_attributes.update({"energy":cat_attributes["energy"]-energysnatcher})
         cat_attributes.update({"intelligence":cat_attributes["intelligence"]+intelligencegiver})
